@@ -6,10 +6,10 @@ public class ArrayListOps1 {
         studentList.add(new Student("Sujit", 1));
         studentList.add(new Student("Siddharth", 2));
         // studentList.add(10,new Student("Karanpreet", 3));  // this would lead to runtime error
-        studentList.add(0,new Student("Karanpreet", 3));
-        studentList.add(4,new Student("Hari", 5));
-        studentList.add(3,new Student("Tricha", 4));
-
+        studentList.add(new Student("Karanpreet", 3));
+        studentList.add(new Student("Hari", 5));
+        studentList.add(new Student("Tricha", 4));
+        studentList.add(new Student("Jude", 6));
 
         printStudentList(studentList);
     }
